@@ -1,12 +1,18 @@
 ---
-title: "Amplify 4"
+title: "AWS Amplifyのハンズオンやってみた（3）"
 emoji: "🐷"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["AWS", "Handson", "Amplify"]
-published: false
+topics: ["AWS", "Amplify", "Handson"]
+published: true
 ---
 
-## 04 AWS Amplify のハンズオン（FE/API/DB 編）
+##　はじめに
+この記事は、`AWS Amplifyのハンズオンやってみた（2）`のつづきです。
+下記リンクの`04 AWS Amplify のハンズオン（FE/API/DB 編）`の動画を見ながら作業しています。
+
+https://pages.awscloud.com/JAPAN-event-OE-Hands-on-for-Beginners-amplify-2022-confirmation-774.html
+
+## データベースのプロビジョニング
 
 `GraphQL API`を追加し、自動的にデータベースをプロビジョニングします。
 下記のコマンドを実行します。

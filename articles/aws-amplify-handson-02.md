@@ -7,7 +7,7 @@ published: true
 ---
 
 ## はじめに
-`AWS Amplifyのハンズオンをやってみた（1）`のつづきです。
+この記事は`AWS Amplifyのハンズオンをやってみた（1）`のつづきです。
 下記リンクの`03 AWS Amplify のハンズオン（環境構築、CLI 編）`の動画を見ながら作業しています。
 
 https://pages.awscloud.com/JAPAN-event-OE-Hands-on-for-Beginners-amplify-2022-confirmation-774.html
