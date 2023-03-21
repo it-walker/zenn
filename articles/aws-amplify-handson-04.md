@@ -3,7 +3,7 @@ title: "AWS Amplify ハンズオンをやってみた（4）"
 emoji: "😊"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AWS", "Amplify", "Handson"]
-published: false
+published: true
 ---
 
 ## はじめに
