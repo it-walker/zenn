@@ -1,5 +1,5 @@
 ---
-title: "Amplify ハンズオンをやってみた（4）"
+title: "AWS Amplify ハンズオンをやってみた（4）"
 emoji: "😊"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AWS", "Amplify", "Handson"]
