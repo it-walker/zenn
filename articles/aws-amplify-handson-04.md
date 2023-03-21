@@ -1,12 +1,19 @@
 ---
-title: "Amplify ハンズオンをやってみた（5）"
+title: "Amplify ハンズオンをやってみた（4）"
 emoji: "😊"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AWS", "Amplify", "Handson"]
 published: false
 ---
 
-## 05 AWS Amplify のハンズオン（FE/API/DB 編）
+## はじめに
+この記事は、`AWS Amplifyのハンズオンやってみた（3）`のつづきです。
+下記リンクの`05 AWS Amplify のハンズオン（FE/API/DB 編）`の動画を見ながら作業しています。
+
+https://pages.awscloud.com/JAPAN-event-OE-Hands-on-for-Beginners-amplify-2022-confirmation-774.html
+
+
+## 認証周りの設定
 認証周りの設定をやっていきます。
 下記のコマンドをCloud9のターミナルから実行します。
 カレントディレクトリは作成したアプリのディレクトリです。
@@ -180,7 +187,7 @@ import { withAuthenticator, Button, Heading } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 ```
 
-![](/images/941d3638488ded/2023-03-19-16-44-14.png)
+![](/images/aws-amplify-handson-04/2023-03-19-16-44-14.png)
 
 次に`src/App.js`の`function`の引数のところを下記の記述に変更します。
 
@@ -192,7 +199,7 @@ function App({ signOut, user }) {
 ```
 
 
-![](/images/941d3638488ded/2023-03-19-16-46-35.png)
+![](/images/aws-amplify-handson-04/2023-03-19-16-46-35.png)
 
 次に、`return`部分を下記の記述に変更します。
 
@@ -206,7 +213,7 @@ return (
 //...
 ```
 
-![](/images/941d3638488ded/2023-03-19-16-49-39.png)
+![](/images/aws-amplify-handson-04/2023-03-19-16-49-39.png)
 
 最後に`src/App.js`の`export`文のところを下記に変更します。
 
@@ -214,7 +221,7 @@ return (
 export default withAuthenticator(App);
 ```
 
-![](/images/941d3638488ded/2023-03-19-16-52-50.png)
+![](/images/aws-amplify-handson-04/2023-03-19-16-52-50.png)
 
 実行してみましょう
 
@@ -224,25 +231,25 @@ npm start
 
 サインインの画面が出てきました！！
 
-![](/images/941d3638488ded/2023-03-19-16-54-17.png)
+![](/images/aws-amplify-handson-04/2023-03-19-16-54-17.png)
 
 
 では、アカウントを作成してみましょう。
 `Create Account`タブに切り替えて、アカウント情報を入力したら`Create Account`ボタンをクリックします。
 
 
-![](/images/941d3638488ded/2023-03-19-16-59-14.png)
+![](/images/aws-amplify-handson-04/2023-03-19-16-59-14.png)
 
 
-![](/images/941d3638488ded/2023-03-19-17-00-34.png)
+![](/images/aws-amplify-handson-04/2023-03-19-17-00-34.png)
 
 メールを受信したら認証コードを入力します。
 
-![](/images/941d3638488ded/2023-03-19-17-00-59.png)
+![](/images/aws-amplify-handson-04/2023-03-19-17-00-59.png)
 
 おおーログインできたー
 
-![](/images/941d3638488ded/2023-03-19-17-03-00.png)
+![](/images/aws-amplify-handson-04/2023-03-19-17-03-00.png)
 
 ## おまけ
 
