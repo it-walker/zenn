@@ -3,7 +3,7 @@ title: "Amplifyで分析してみよう（Amazon pinpoint）"
 emoji: "🐥"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AWS", "Amplify", "Pinpoint"]
-published: false
+published: true
 ---
 
 ## さっそくやってみる
