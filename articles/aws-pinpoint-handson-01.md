@@ -337,16 +337,3 @@ a[x-apple-data-detectors] {
 長くなりそうなので、今回はここまでにしたいと思います。
 また次回！
 
-## カスタマーデータのインポート
-次は、カスタマーデータをインポートするようです。
-ようは、ハンズオンなので、用意されたデータをインポートしてやってみようと理解。
-
-サンプルデータはCSVで用意されていましたので、リンクを貼っておきます。
-
-[sample.csv](https://static.us-east-1.prod.workshops.aws/public/301678ed-0734-4951-9d1d-027e8c96d15d/static/import_customers/console_upload_segment_csv.csv)
-
-左メニューの`分析 > セグメント`をクリックします。
-その後、`セグメントを作成`ボタンをクリックします。
-
-![](/images/aws-pinpoint-handson-01/2023-08-11-23-21-12.png)
-
