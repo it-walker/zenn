@@ -3,7 +3,7 @@ title: "AgileParty2023に参加しました！"
 emoji: "🙌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Agile", "Scrum", "Event"]
-published: false
+published: true
 ---
 
 ## AgileParty2023（アジャパー）に参加しました！
