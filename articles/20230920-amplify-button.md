@@ -3,7 +3,7 @@ title: "Amplifyのボタンのレイアウトに潜入調査"
 emoji: "👋"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AWS", "Amplify", "UI", "Button"]
-published: false
+published: true
 ---
 
 ## Amplifyのボタンレイアウトを考える
